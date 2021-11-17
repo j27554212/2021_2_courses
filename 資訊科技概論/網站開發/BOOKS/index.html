@@ -1,0 +1,821 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh-TW">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>F5470 CSS功能索引式參考手冊</title>
+<style type="text/css" media="screen,tv">
+<!--
+body {
+  margin: 1.5em;
+  color: #000;
+  background: #fff;
+}
+a:link, a:visited {
+  color: #039;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #f60;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a[name]:hover {
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  padding: 0.2em 0.6em;
+  font-size: large;
+}
+h2 a[name]:hover {
+  color: #fff;
+  background: transparent;
+}
+#chapter01 h2 { color: #ffffff; background: #524c78 }
+#chapter02 h2 { color: #ffffff; background: #52547d }
+#chapter03 h2 { color: #ffffff; background: #525883 }
+#chapter04 h2 { color: #ffffff; background: #525e89 }
+#chapter05 h2 { color: #ffffff; background: #506390 }
+#chapter06 h2 { color: #ffffff; background: #4a688b }
+#chapter07 h2 { color: #ffffff; background: #406a83 }
+#chapter08 h2 { color: #ffffff; background: #326d7c }
+#chapter09 h2 { color: #ffffff; background: #226d75 }
+#chapter10 h2 { color: #ffffff; background: #186e6d }
+#chapter11 h2 { color: #ffffff; background: #197062 }
+h3 {
+  margin: 0.8em 0 0.3em;
+  padding: 0.2em 0.4em;
+  font-size: medium;
+}
+#chapter01 h3 { border-bottom: 1px dotted #524c78 }
+#chapter02 h3 { border-bottom: 1px dotted #52547d }
+#chapter03 h3 { border-bottom: 1px dotted #525883 }
+#chapter04 h3 { border-bottom: 1px dotted #525e89 }
+#chapter05 h3 { border-bottom: 1px dotted #506390 }
+#chapter06 h3 { border-bottom: 1px dotted #4a688b }
+#chapter07 h3 { border-bottom: 1px dotted #406a83 }
+#chapter08 h3 { border-bottom: 1px dotted #326d7c }
+#chapter09 h3 { border-bottom: 1px dotted #226d75 }
+#chapter10 h3 { border-bottom: 1px dotted #186e6d }
+#chapter11 h3 { border-bottom: 1px dotted #197062 }
+em {
+  font: bold 0.9em "arial",monospace;
+  color: #999;
+  background: #fff;
+}
+ol {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+ul {
+  list-style: none;
+}
+ul ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+ul ul li {
+  padding-left: 2em;
+  line-height: 1.5;
+}
+.back2top {
+  font-size: small;
+  text-align: right;
+}
+-->
+</style>
+</head>
+<body>
+
+<h1><a name="pagetop">F5470 CSS功能索引式參考手冊</a></h1>
+
+<ul>
+<li><a href="#c01"><em>01</em>　匯入至HTML</a></li>
+<li><a href="#c02"><em>02</em>　指定適用對象</a></li>
+<li><a href="#c03"><em>03</em>　顏色與背景</a></li>
+<li><a href="#c04"><em>04</em>　文字</a></li>
+<li><a href="#c05"><em>05</em>　字型</a></li>
+<li><a href="#c06"><em>06</em>　區塊的設定</a></li>
+<li><a href="#c07"><em>07</em>　編排與顯示</a></li>
+<li><a href="#c08"><em>08</em>　條列項目</a></li>
+<li><a href="#c09"><em>09</em>　表格</a></li>
+<li><a href="#c10"><em>10</em>　其他</a></li>
+<li><a href="#c11"><em>11</em>　應用範例</a></li>
+</ul>
+
+<div id="chapter01">
+<h2><a name="c01">01 匯入至HTML</a></h2>
+
+<ul>
+<li>
+<h3>讀入CSS檔案</h3>
+  <ul>
+    <li><a href="01/01-01/01-01-01/index.html"><em>01-01-01</em>　讀入單一CSS檔案</a></li>
+    <li><a href="01/01-01/01-01-02/index.html"><em>01-01-02</em>　讀入多個CSS檔案</a></li>
+    <li><a href="01/01-01/01-01-03/index.html"><em>01-01-03</em>　NN4.x無法讀入外部CSS</a></li>
+    <li><a href="01/01-01/01-01-04/index.html"><em>01-01-04</em>　NN4.x與IE4..x無法讀入外部CSS</a></li>
+    <li><a href="01/01-01/01-01-05/index.html"><em>01-01-05</em>　NN4.x、IE4..x與MacIE4無法讀入外部CSS</a></li>
+    <li><a href="01/01-01/01-01-06/index.html"><em>01-01-06</em>　針對NN4.x與IE4.x提供專用的CSS</a></li>
+    <li><a href="01/01-01/01-01-07/index.html"><em>01-01-07</em>　選擇切換讀入的CSS檔案</a></li>
+  </ul>
+</li>
+<li>
+<h3>依style要素裡的內容構成頁面</h3>
+  <ul>
+    <li><a href="01/01-02/01-02-01/index.html"><em>01-02-01</em>　依style要素裡的內容構成頁面</a></li>
+    <li><a href="01/01-02/01-02-02/index.html"><em>01-02-02</em>　NN4.x無法對應</a></li>
+    <li><a href="01/01-02/01-02-03/index.html"><em>01-02-03</em>　NN4.x與IE4.x無法對應</a></li>
+  </ul>
+</li>
+<li>
+<h3>依style屬性的設定值構成頁面</h3>
+  <ul>
+    <li><a href="01/01-03/01-03-01/index.html"><em>01-03-01</em>　依style屬性的設定值構成頁面</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter02">
+<h2><a name="c02">02 指定適用對象</a></h2>
+
+<ul>
+<li>
+<h3>以要素名稱指定</h3>
+  <ul>
+    <li><a href="02/02-01/02-01-01/index.html"><em>02-01-01</em>　以要素名稱指定</a></li>
+    <li><a href="02/02-01/02-01-02/index.html"><em>02-01-02</em>　指定至所有要素</a></li>
+  </ul>
+</li>
+<li>
+<h3>以class屬性、id屬性指定</h3>
+  <ul>
+    <li><a href="02/02-02/02-02-01/index.html"><em>02-02-01</em>　適用於已指定為ID的要素</a></li>
+    <li><a href="02/02-02/02-02-02/index.html"><em>02-02-02</em>　適用於已指定為class的要素</a></li>
+    <li><a href="02/02-02/02-02-03/index.html"><em>02-02-03</em>　適用於已指定為class的特定要素</a></li>
+    <li><a href="02/02-02/02-02-04/index.html"><em>02-02-04</em>　一個要素指定為多個class</a></li>
+  </ul>
+</li>
+<li>
+<h3>適用於特定範圍裡的要素</h3>
+  <ul>
+    <li><a href="02/02-03/02-03-01/index.html"><em>02-03-01</em>　適用於包含在特定要素裡的要素</a></li>
+    <li><a href="02/02-03/02-03-02/index.html"><em>02-03-02</em>　適用於包含在特定class裡的要素</a></li>
+    <li><a href="02/02-03/02-03-03/index.html"><em>02-03-03</em>　僅適用於特定頁面裡的要素</a></li>
+  </ul>
+</li>
+<li>
+<h3>設定連結的樣式</h3>
+  <ul>
+    <li><a href="02/02-04/02-04-01/index.html"><em>02-04-01</em>　套用至所有的連結</a></li>
+    <li><a href="02/02-04/02-04-02/index.html"><em>02-04-02</em>　套用至已指定class的連結</a></li>
+    <li><a href="02/02-04/02-04-03/index.html"><em>02-04-03</em>　套用至特定範圍內的連結</a></li>
+    <li><a href="02/02-04/02-04-04/index.html"><em>02-04-04</em>　消除連結的底線</a></li>
+    <li><a href="02/02-04/02-04-05/index.html"><em>02-04-05</em>　滑鼠游標移至連結上方時, 底線才出現</a></li>
+  </ul>
+</li>
+<li>
+<h3>針對第一個字母設定樣式</h3>
+  <ul>
+    <li><a href="02/02-05/02-05-01/index.html"><em>02-05-01</em>　改變第一個字母的顏色</a></li>
+    <li><a href="02/02-05/02-05-02/index.html"><em>02-05-02</em>　設定Drop Caps （首字大寫）</a></li>
+  </ul>
+</li>
+<li>
+<h3>同時指定多個適用對象</h3>
+  <ul>
+    <li><a href="02/02-06/02-06-01/index.html"><em>02-06-01</em>　同時指定多個適用對象</a></li>
+  </ul>
+</li>
+<li>
+<h3>使用屬性名稱與屬性值套用樣式</h3>
+  <ul>
+    <li><a href="02/02-07/02-07-01/index.html"><em>02-07-01</em>　使用屬性名稱指定</a></li>
+    <li><a href="02/02-07/02-07-02/index.html"><em>02-07-02</em>　使用屬性名稱加上屬性值套用樣式</a></li>
+    <li><a href="02/02-07/02-07-03/index.html"><em>02-07-03</em>　僅針對連結來設定hover效果</a></li>
+    <li><a href="02/02-07/02-07-04/index.html"><em>02-07-04</em>　使新版瀏覽器顯示PNG格式圖片</a></li>
+  </ul>
+</li>
+<li>
+<h3>套用於子要素及後續要素</h3>
+  <ul>
+    <li><a href="02/02-08/02-08-01/index.html"><em>02-08-01</em>　套用於子要素</a></li>
+    <li><a href="02/02-08/02-08-02/index.html"><em>02-08-02</em>　套用於後續要素</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter03">
+<h2><a name="c03">03 顏色與背景</a></h2>
+
+<ul>
+<li>
+<h3>文字顏色</h3>
+  <ul>
+    <li><a href="03/03-01/03-01-01/index.html"><em>03-01-01</em>　設定網頁全體的文字顏色</a></li>
+    <li><a href="03/03-01/03-01-02/index.html"><em>03-01-02</em>　以#ff0000格式來指定顏色</a></li>
+    <li><a href="03/03-01/03-01-03/index.html"><em>03-01-03</em>　以#f00格式來指定顏色</a></li>
+    <li><a href="03/03-01/03-01-04/index.html"><em>03-01-04</em>　以rgb(255,0,0)的格式來指定顏色</a></li>
+    <li><a href="03/03-01/03-01-05/index.html"><em>03-01-05</em>　以rgb(100%, 0%, 0%)的格式來指定顏色</a></li>
+  </ul>
+</li>
+<li>
+<h3>背景色</h3>
+  <ul>
+    <li><a href="03/03-02/03-02-01/index.html"><em>03-02-01</em>　設定網頁全體的背景色</a></li>
+    <li><a href="03/03-02/03-02-02/index.html"><em>03-02-02</em>　設定文字的背景色</a></li>
+    <li><a href="03/03-02/03-02-03/index.html"><em>03-02-03</em>　設定選單、按鈕與文字輸入區域的背景色</a></li>
+    <li><a href="03/03-02/03-02-04/index.html"><em>03-02-04</em>　設定表格的背景色</a></li>
+    <li><a href="03/03-02/03-02-05/index.html"><em>03-02-05</em>　邊框設定與背景顯示</a></li>
+  </ul>
+</li>
+<li>
+<h3>背景圖片</h3>
+  <ul>
+    <li><a href="03/03-03/03-03-01/index.html"><em>03-03-01</em>　設定網頁全體的背景圖片</a></li>
+    <li><a href="03/03-03/03-03-02/index.html"><em>03-03-02</em>　套用背景圖片到文字段落上</a></li>
+    <li><a href="03/03-03/03-03-03/index.html"><em>03-03-03</em>　設定選單、按鈕與文字輸入區域上的背景圖片</a></li>
+    <li><a href="03/03-03/03-03-04/index.html"><em>03-03-04</em>　設定表格的背景圖片</a></li>
+  </ul>
+</li>
+<li>
+<h3>背景圖片的排列方式</h3>
+  <ul>
+    <li><a href="03/03-04/03-04-01/index.html"><em>03-04-01</em>　僅顯示一張背景圖片</a></li>
+    <li><a href="03/03-04/03-04-02/index.html"><em>03-04-02</em>　縱向重複顯示</a></li>
+    <li><a href="03/03-04/03-04-03/index.html"><em>03-04-03</em>　橫向重複顯示</a></li>
+    <li><a href="03/03-04/03-04-04/index.html"><em>03-04-04</em>　以馬賽克方式重複分布</a></li>
+  </ul>
+</li>
+<li>
+<h3>背景圖片的位置</h3>
+  <ul>
+    <li><a href="03/03-05/03-05-01/index.html"><em>03-05-01</em>　背景圖片位置設定至往右100px與向下50px</a></li>
+    <li><a href="03/03-05/03-05-02/index.html"><em>03-05-02</em>　背景圖片位置設定至往右80%與向下30%</a></li>
+    <li><a href="03/03-05/03-05-03/index.html"><em>03-05-03</em>　背景圖片位置設定置中</a></li>
+    <li><a href="03/03-05/03-05-04/index.html"><em>03-05-04</em>　背景圖片位置設定於右下</a></li>
+    <li><a href="03/03-05/03-05-05/index.html"><em>03-05-05</em>　背景圖片於右側以縱向重複</a></li>
+    <li><a href="03/03-05/03-05-06/index.html"><em>03-05-06</em>　背景圖片於下方以橫向重複</a></li>
+    <li><a href="03/03-05/03-05-07/index.html"><em>03-05-07</em>　背景圖片於中央以縱向重複</a></li>
+    <li><a href="03/03-05/03-05-08/index.html"><em>03-05-08</em>　背景圖片於中央以橫向重複</a></li>
+    <li><a href="03/03-05/03-05-09/index.html"><em>03-05-09</em>　背景圖片置於頂端往下30px位置以橫向重複</a></li>
+  </ul>
+</li>
+<li>
+<h3>固定背景圖片的位置</h3>
+  <ul>
+    <li><a href="03/03-06/03-06-01/index.html"><em>03-06-01</em>　背景圖以縱方向重複並固定</a></li>
+    <li><a href="03/03-06/03-06-02/index.html"><em>03-06-02</em>　背景圖不重複並固定於左上位置</a></li>
+    <li><a href="03/03-06/03-06-03/index.html"><em>03-06-03</em>　背景呈半透明狀態</a></li>
+  </ul>
+</li>
+<li>
+<h3>背景的相關設定</h3>
+  <ul>
+    <li><a href="03/03-07/03-07-01/index.html"><em>03-07-01</em>　設定背景色</a></li>
+    <li><a href="03/03-07/03-07-02/index.html"><em>03-07-02</em>　設定背景圖片</a></li>
+    <li><a href="03/03-07/03-07-03/index.html"><em>03-07-03</em>　使背景圖片縱向重複出現</a></li>
+    <li><a href="03/03-07/03-07-04/index.html"><em>03-07-04</em>　使背景圖片在底部橫向重複出現</a></li>
+    <li><a href="03/03-07/03-07-05/index.html"><em>03-07-05</em>　使單一背景圖片固定在左上角</a></li>
+    <li><a href="03/03-07/03-07-06/index.html"><em>03-07-06</em>　製作圓角背景</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter04">
+<h2><a name="c04">04 文字</a></h2>
+
+<ul>
+<li>
+<h3>段落對齊</h3>
+  <ul>
+    <li><a href="04/04-01/04-01-01/index.html"><em>04-01-01</em>　向左對齊</a></li>
+    <li><a href="04/04-01/04-01-02/index.html"><em>04-01-02</em>　向右對齊</a></li>
+    <li><a href="04/04-01/04-01-03/index.html"><em>04-01-03</em>　置中對齊</a></li>
+    <li><a href="04/04-01/04-01-04/index.html"><em>04-01-04</em>　左右對齊</a></li>
+    <li><a href="04/04-01/04-01-05/index.html"><em>04-01-05</em>　表格內文的對齊</a></li>
+    <li><a href="04/04-01/04-01-06/index.html"><em>04-01-06</em>　表格標題的對齊</a></li>
+  </ul>
+</li>
+<li>
+<h3>垂直對齊</h3>
+  <ul>
+    <li><a href="04/04-02/04-02-01/index.html"><em>04-02-01</em>　向上對齊</a></li>
+    <li><a href="04/04-02/04-02-02/index.html"><em>04-02-02</em>　向下對齊</a></li>
+    <li><a href="04/04-02/04-02-03/index.html"><em>04-02-03</em>　對齊至文字上緣</a></li>
+    <li><a href="04/04-02/04-02-04/index.html"><em>04-02-04</em>　對齊至文字下緣</a></li>
+    <li><a href="04/04-02/04-02-05/index.html"><em>04-02-05</em>　對齊至文字中線</a></li>
+    <li><a href="04/04-02/04-02-06/index.html"><em>04-02-06</em>　圖片對齊至文字上緣</a></li>
+    <li><a href="04/04-02/04-02-07/index.html"><em>04-02-07</em>　圖片對齊至文字中線</a></li>
+    <li><a href="04/04-02/04-02-08/index.html"><em>04-02-08</em>　上標字</a></li>
+    <li><a href="04/04-02/04-02-09/index.html"><em>04-02-09</em>　下標字</a></li>
+    <li><a href="04/04-02/04-02-10/index.html"><em>04-02-10</em>　對齊至表格上緣</a></li>
+    <li><a href="04/04-02/04-02-11/index.html"><em>04-02-11</em>　對齊至表格下緣</a></li>
+    <li><a href="04/04-02/04-02-12/index.html"><em>04-02-12</em>　對齊至表格中線</a></li>
+    <li><a href="04/04-02/04-02-13/index.html"><em>04-02-13</em>　消除圖片下方的間隙</a></li>
+  </ul>
+</li>
+<li>
+<h3>指定行高</h3>
+  <ul>
+    <li><a href="04/04-03/04-03-01/index.html"><em>04-03-01</em>　以數值指定為例</a></li>
+    <li><a href="04/04-03/04-03-02/index.html"><em>04-03-02</em>　以百分比指定為例</a></li>
+    <li><a href="04/04-03/04-03-03/index.html"><em>04-03-03</em>　在NN4.x裡圖片與內文重疊</a></li>
+  </ul>
+</li>
+<li>
+<h3>字距</h3>
+  <ul>
+    <li><a href="04/04-04/04-04-01/index.html"><em>04-04-01</em>　設定字距</a></li>
+    <li><a href="04/04-04/04-04-02/index.html"><em>04-04-02</em>　設定按鈕文字的字距</a></li>
+    <li><a href="04/04-04/04-04-03/index.html"><em>04-04-03</em>　設定表格標題的字距</a></li>
+  </ul>
+</li>
+<li>
+<h3>單字間距</h3>
+  <ul>
+    <li><a href="04/04-05/04-05-01/index.html"><em>04-05-01</em>　設定單字間距</a></li>
+  </ul>
+</li>
+<li>
+<h3>首行縮排</h3>
+  <ul>
+    <li><a href="04/04-06/04-06-01/index.html"><em>04-06-01</em>　設定首行縮排</a></li>
+  </ul>
+</li>
+<li>
+<h3>空白，tab與換行</h3>
+  <ul>
+    <li><a href="04/04-07/04-07-01/index.html"><em>04-07-01</em>　空白、tab以及換行依原始編排呈現</a></li>
+    <li><a href="04/04-07/04-07-02/index.html"><em>04-07-02</em>　不換行顯示</a></li>
+    <li><a href="04/04-07/04-07-03/index.html"><em>04-07-03</em>　禁止在表格內換行</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter05">
+<h2><a name="c05">05 字型</a></h2>
+
+<ul>
+<li>
+<h3>字型的種類</h3>
+  <ul>
+    <li><a href="05/05-01/05-01-01/index.html"><em>05-01-01</em>　指定字型名稱的範例</a></li>
+    <li><a href="05/05-01/05-01-02/index.html"><em>05-01-02</em>　指定字型類別名稱的範例</a></li>
+    <li><a href="05/05-01/05-01-03/index.html"><em>05-01-03</em>　在選單、按鈕與文字輸入區域上的應用</a></li>
+  </ul>
+</li>
+<li>
+<h3>字型的大小</h3>
+  <ul>
+    <li><a href="05/05-02/05-02-01/index.html"><em>05-02-01</em>　以數值, ％, smaller, larger來指定字體大小</a></li>
+    <li><a href="05/05-02/05-02-02/index.html"><em>05-02-02</em>　字體的7段大小變化</a>
+      （<a href="05/05-02/05-02-02/index2.html">互換模式</a>）</li>
+    <li><a href="05/05-02/05-02-03/index.html"><em>05-02-03</em>　在選單、按鈕與文字輸入區域上設定文字大小</a></li>
+    <li><a href="05/05-02/05-02-04/index.html"><em>05-02-04</em>　在選單、按鈕與文字輸入區域上繼承文字大小</a>
+      （<a href="05/05-02/05-02-02/index2.html">互換模式</a><a href="05/05-02/05-02-04/index2.html"></a>）</li>
+  </ul>
+</li>
+<li>
+<h3>粗體字</h3>
+  <ul>
+    <li><a href="05/05-03/05-03-01/index.html"><em>05-03-01</em>　設定為粗體字</a></li>
+    <li><a href="05/05-03/05-03-02/index.html"><em>05-03-02</em>　在選單、按鈕與文字輸入區域上設定文字粗細</a></li>
+  </ul>
+</li>
+<li>
+<h3>斜體字</h3>
+  <ul>
+    <li><a href="05/05-04/05-04-01/index.html"><em>05-04-01</em>　設定為斜體字</a></li>
+    <li><a href="05/05-04/05-04-02/index.html"><em>05-04-02</em>　在選單、按鈕與文字輸入區域上設定斜體字</a></li>
+  </ul>
+</li>
+<li>
+<h3>頂線、底線、刪除線</h3>
+  <ul>
+    <li><a href="05/05-05/05-05-01/index.html"><em>05-05-01</em>　文字加底線、頂線、刪除線</a></li>
+  </ul>
+</li>
+<li>
+<h3>文字的大小寫</h3>
+  <ul>
+    <li><a href="05/05-06/05-06-01/index.html"><em>05-06-01</em>　文字設定大小寫</a></li>
+  </ul>
+</li>
+<li>
+<h3>Small-Caps（小型大寫字）</h3>
+  <ul>
+    <li><a href="05/05-07/05-07-01/index.html"><em>05-07-01</em>　文字設定為small-caps（小型大寫字）</a></li>
+  </ul>
+</li>
+<li>
+<h3>同時設定與文字相關的屬性</h3>
+  <ul>
+    <li><a href="05/05-08/05-08-01/index.html"><em>05-08-01</em>　設定文字的種類與大小</a></li>
+    <li><a href="05/05-08/05-08-02/index.html"><em>05-08-02</em>　同時設定與文字相關的屬性</a></li>
+    <li><a href="05/05-08/05-08-03/index.html"><em>05-08-03</em>　設定文字輸入區域的文字</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter06">
+<h2><a name="c06">06 區塊的設定</a></h2>
+
+<ul>
+<li>
+<h3>邊界</h3>
+  <ul>
+    <li><a href="06/06-01/06-01-01/index.html"><em>06-01-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-01/06-01-02/index.html"><em>06-01-02</em>　適用於標題的例子</a></li>
+    <li><a href="06/06-01/06-01-03/index.html"><em>06-01-03</em>　適用於標題與段落的例子</a></li>
+    <li><a href="06/06-01/06-01-04/index.html"><em>06-01-04</em>　把區塊要素置中</a>
+      （<a href="06/06-01/06-01-04/index2.html">互換模式</a>）</li>
+  </ul>
+</li>
+<li>
+<h3>邊界的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-02/06-02-01/index.html"><em>06-02-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-02/06-02-02/index.html"><em>06-02-02</em>　在頁框中設定邊界</a></li>
+  </ul>
+</li>
+<li>
+<h3>內距</h3>
+  <ul>
+    <li><a href="06/06-03/06-03-01/index.html"><em>06-03-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-03/06-03-02/index.html"><em>06-03-02</em>　適用於標題的例子</a></li>
+    <li><a href="06/06-03/06-03-03/index.html"><em>06-03-03</em>　適用於段落的例子</a></li>
+  </ul>
+</li>
+<li>
+<h3>內距的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-04/06-04-01/index.html"><em>06-04-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-04/06-04-02/index.html"><em>06-04-02</em>　適用於按鈕的例子</a></li>
+    <li><a href="06/06-04/06-04-03/index.html"><em>06-04-03</em>　適用於表格的例子</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線顏色</h3>
+  <ul>
+    <li><a href="06/06-05/06-05-01/index.html"><em>06-05-01</em>　基本的設定範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線顏色的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-06/06-06-01/index.html"><em>06-06-01</em>　基本的設定範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線粗細</h3>
+  <ul>
+    <li><a href="06/06-07/06-07-01/index.html"><em>06-07-01</em>　基本的設定範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線粗細的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-08/06-08-01/index.html"><em>06-08-01</em>　基本的設定範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線種類</h3>
+  <ul>
+    <li><a href="06/06-09/06-09-01/index.html"><em>06-09-01</em>　基本的設定範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線種類的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-10/06-10-01/index.html"><em>06-10-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-10/06-10-02/index.html"><em>06-10-02</em>　適用於背景</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線的顏色、粗細、種類</h3>
+  <ul>
+    <li><a href="06/06-11/06-11-01/index.html"><em>06-11-01</em>　使用框線作為水平分隔線</a></li>
+    <li><a href="06/06-11/06-11-02/index.html"><em>06-11-02</em>　在標題上的應用1</a></li>
+    <li><a href="06/06-11/06-11-03/index.html"><em>06-11-03</em>　在標題上的應用2</a></li>
+    <li><a href="06/06-11/06-11-04/index.html"><em>06-11-04</em>　在標題上的應用3</a></li>
+    <li><a href="06/06-11/06-11-05/index.html"><em>06-11-05</em>　在標題與段落上的應用</a></li>
+    <li><a href="06/06-11/06-11-06/index.html"><em>06-11-06</em>　在內文要素上的應用</a></li>
+    <li><a href="06/06-11/06-11-07/index.html"><em>06-11-07</em>　把連結的底線改為點線</a></li>
+  </ul>
+</li>
+<li>
+<h3>框線的綜合設定</h3>
+  <ul>
+    <li><a href="06/06-12/06-12-01/index.html"><em>06-12-01</em>　基本的設定範例</a></li>
+    <li><a href="06/06-12/06-12-02/index.html"><em>06-12-02</em>　框線在按鈕, 選單, 文字輸入區域的應用</a></li>
+    <li><a href="06/06-12/06-12-03/index.html"><em>06-12-03</em>　消除已設定連結的圖片框線1</a></li>
+    <li><a href="06/06-12/06-12-04/index.html"><em>06-12-04</em>　消除已設定連結的圖片框線2</a></li>
+  </ul>
+</li>
+<li>
+<h3>寬度</h3>
+  <ul>
+    <li><a href="06/06-13/06-13-01/index.html"><em>06-13-01</em>　基本的設定範例</a>
+      （<a href="06/06-13/06-13-01/index2.html">互換模式</a>）</li>
+    <li><a href="06/06-13/06-13-02/index.html"><em>06-13-02</em>　在選單, 文字輸入區域, 按鈕上的使用</a></li>
+    <li><a href="06/06-13/06-13-03/index.html"><em>06-13-03</em>　在表格上的使用</a></li>
+  </ul>
+</li>
+<li>
+<h3>高度</h3>
+  <ul>
+    <li><a href="06/06-14/06-14-01/index.html"><em>06-14-01</em>　基本的設定範例</a>
+      （<a href="06/06-13/06-13-01/index2.html">互換模式</a><a href="06/06-14/06-14-01/index2.html"></a>）</li>
+    <li><a href="06/06-14/06-14-02/index.html"><em>06-14-02</em>　在圖片上的使用</a></li>
+    <li><a href="06/06-14/06-14-03/index.html"><em>06-14-03</em>　在表格上的使用</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter07">
+<h2><a name="c07">07 編排與顯示</a></h2>
+
+<ul>
+<li>
+<h3>文繞圖</h3>
+  <ul>
+    <li><a href="07/07-01/07-01-01/index.html"><em>07-01-01</em>　圖片置左的文繞圖</a></li>
+    <li><a href="07/07-01/07-01-02/index.html"><em>07-01-02</em>　圖片與文字的間隔</a></li>
+    <li><a href="07/07-01/07-01-03/index.html"><em>07-01-03</em>　圖片分置左右, 文字由中央開始繞圖</a></li>
+    <li><a href="07/07-01/07-01-04/index.html"><em>07-01-04</em>　2張以上的圖片放置同一側的文繞圖</a></li>
+    <li><a href="07/07-01/07-01-05/index.html"><em>07-01-05</em>　標題的文繞圖</a></li>
+  </ul>
+</li>
+<li>
+<h3>解除文繞圖</h3>
+  <ul>
+    <li><a href="07/07-02/07-02-01/index.html"><em>07-02-01</em>　解除圖片置左的文繞圖</a></li>
+    <li><a href="07/07-02/07-02-02/index.html"><em>07-02-02</em>　解除表格置右的文繞圖</a></li>
+  </ul>
+</li>
+<li>
+<h3>相對配置, 絕對配置</h3>
+  <ul>
+    <li><a href="07/07-03/07-03-01/index.html"><em>07-03-01</em>　相對配置的範例</a></li>
+    <li><a href="07/07-03/07-03-02/index.html"><em>07-03-02</em>　絕對配置的範例</a></li>
+    <li><a href="07/07-03/07-03-03/index.html"><em>07-03-03</em>　固定配置的範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>上下左右的位置指定</h3>
+  <ul>
+    <li><a href="07/07-04/07-04-01/index.html"><em>07-04-01</em>　相對配置的基本範例</a></li>
+    <li><a href="07/07-04/07-04-02/index.html"><em>07-04-02</em>　絕對配置的基本範例</a></li>
+    <li><a href="07/07-04/07-04-03/index.html"><em>07-04-03</em>　框線上放置區塊</a></li>
+    <li><a href="07/07-04/07-04-04/index.html"><em>07-04-04</em>　水平及垂直置中</a></li>
+  </ul>
+</li>
+<li>
+<h3>層疊順序</h3>
+  <ul>
+    <li><a href="07/07-05/07-05-01/index.html"><em>07-05-01</em>　基本範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>顯示形式</h3>
+  <ul>
+    <li><a href="07/07-06/07-06-01/index.html"><em>07-06-01</em>　縮排要素以區塊要素的樣式顯示</a></li>
+    <li><a href="07/07-06/07-06-02/index.html"><em>07-06-02</em>　在label要素上的使用範例</a></li>
+    <li><a href="07/07-06/07-06-03/index.html"><em>07-06-03</em>　把區塊刪除</a></li>
+  </ul>
+</li>
+<li>
+<h3>顯示, 不顯示</h3>
+  <ul>
+    <li><a href="07/07-07/07-07-01/index.html"><em>07-07-01</em>　把區塊設定成透明</a></li>
+  </ul>
+</li>
+<li>
+<h3>溢排的顯示方式</h3>
+  <ul>
+    <li><a href="07/07-08/07-08-01/index.html"><em>07-08-01</em>　顯示超出區塊的部份</a></li>
+    <li><a href="07/07-08/07-08-02/index.html"><em>07-08-02</em>　不顯示超出區塊的部份</a></li>
+    <li><a href="07/07-08/07-08-03/index.html"><em>07-08-03</em>　使用捲軸</a></li>
+    <li><a href="07/07-08/07-08-04/index.html"><em>07-08-04</em>　在表格上使用捲軸</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter08">
+<h2><a name="c08">08 條列項目</a></h2>
+
+<ul>
+<li>
+<h3>項目符號的種類</h3>
+  <ul>
+    <li><a href="08/08-01/08-01-01/index.html"><em>08-01-01</em>　項目符號</a></li>
+    <li><a href="08/08-01/08-01-02/index.html"><em>08-01-02</em>　項目符號為數字</a></li>
+    <li><a href="08/08-01/08-01-03/index.html"><em>08-01-03</em>　項目符號為羅馬數字</a></li>
+    <li><a href="08/08-01/08-01-04/index.html"><em>08-01-04</em>　項目符號為英文字母</a></li>
+    <li><a href="08/08-01/08-01-05/index.html"><em>08-01-05</em>　項目符號為小寫希臘字母</a></li>
+    <li><a href="08/08-01/08-01-06/index.html"><em>08-01-06</em>　項目符號為中文數字</a></li>
+    <li><a href="08/08-01/08-01-07/index.html"><em>08-01-07</em>　項目符號為日文平假名</a></li>
+    <li><a href="08/08-01/08-01-08/index.html"><em>08-01-08</em>　項目符號為日文片假名</a></li>
+    <li><a href="08/08-01/08-01-09/index.html"><em>08-01-09</em>　不使用項目符號</a></li>
+  </ul>
+</li>
+<li>
+<h3>以圖片作為項目符號</h3>
+  <ul>
+    <li><a href="08/08-02/08-02-01/index.html"><em>08-02-01</em>　每項條列的圖片皆相同</a></li>
+    <li><a href="08/08-02/08-02-02/index.html"><em>08-02-02</em>　每項條列的圖片皆不相同</a></li>
+  </ul>
+</li>
+<li>
+<h3>項目符號的位置</h3>
+  <ul>
+    <li><a href="08/08-03/08-03-01/index.html"><em>08-03-01</em>　基本範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>與項目符號相關的綜合設定</h3>
+  <ul>
+    <li><a href="08/08-04/08-04-01/index.html"><em>08-04-01</em>　指定項目符號的種類、圖片以及位置</a></li>
+    <li><a href="08/08-04/08-04-02/index.html"><em>08-04-02</em>　不顯示項目符號</a></li>
+    <li><a href="08/08-04/08-04-03/index.html"><em>08-04-03</em>　改變項目符號的大小與粗細</a></li>
+    <li><a href="08/08-04/08-04-04/index.html"><em>08-04-04</em>　項目符號以背景圖的方式顯示</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter09">
+<h2><a name="c09">09 表格</a></h2>
+
+<ul>
+<li>
+<h3>表格的顯示方式</h3>
+  <ul>
+    <li><a href="09/09-01/09-01-01/index.html"><em>09-01-01</em>　基本範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>儲存格框線的顯示方式</h3>
+  <ul>
+    <li><a href="09/09-02/09-02-01/index.html"><em>09-02-01</em>　基本範例</a></li>
+    <li><a href="09/09-02/09-02-02/index.html"><em>09-02-02</em>　框線為一直線1</a></li>
+    <li><a href="09/09-02/09-02-03/index.html"><em>09-02-03</em>　框線為一直線2</a></li>
+    <li><a href="09/09-02/09-02-04/index.html"><em>09-02-04</em>　框線為一直線3</a></li>
+    <li><a href="09/09-02/09-02-05/index.html"><em>09-02-05</em>　框線為一直線4</a></li>
+  </ul>
+</li>
+<li>
+<h3>儲存格框線的間隔</h3>
+  <ul>
+    <li><a href="09/09-03/09-03-01/index.html"><em>09-03-01</em>　基本範例</a></li>
+  </ul>
+</li>
+<li>
+<h3>空儲存格框線的顯示與不顯示狀態</h3>
+  <ul>
+    <li><a href="09/09-04/09-04-01/index.html"><em>09-04-01</em>　基本範例</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter10">
+<h2><a name="c10">10 其他</a></h2>
+
+<ul>
+<li>
+<h3>滑鼠遊標樣式</h3>
+  <ul>
+    <li><a href="10/10-01/10-01-01/index.html"><em>10-01-01</em>　預設值</a></li>
+    <li><a href="10/10-01/10-01-02/index.html"><em>10-01-02</em>　連結</a></li>
+    <li><a href="10/10-01/10-01-03/index.html"><em>10-01-03</em>　十字型</a></li>
+    <li><a href="10/10-01/10-01-04/index.html"><em>10-01-04</em>　計時器型</a></li>
+    <li><a href="10/10-01/10-01-05/index.html"><em>10-01-05</em>　疑難解答型</a></li>
+    <li><a href="10/10-01/10-01-06/index.html"><em>10-01-06</em>　文字輸入型</a></li>
+    <li><a href="10/10-01/10-01-07/index.html"><em>10-01-07</em>　移動型</a></li>
+    <li><a href="10/10-01/10-01-08/index.html"><em>10-01-08</em>　縮放</a></li>
+    <li><a href="10/10-01/10-01-09/index.html"><em>10-01-09</em>　指定遊標的樣式路徑</a></li>
+  </ul>
+</li>
+<li>
+<h3>列印的換頁設定</h3>
+  <ul>
+    <li><a href="10/10-02/10-02-01/index.html"><em>10-02-01</em>　在表格前列印換頁</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+<div id="chapter11">
+<h2><a name="c11">11 應用範例</a></h2>
+
+<ul>
+<li>
+<h3>2段式網頁編排</h3>
+  <ul>
+    <li><a href="11/11-01/11-01-01/index.html"><em>11-01-01</em>　文繞圖-樣式A（左側選單）</a></li>
+    <li><a href="11/11-01/11-01-02/index.html"><em>11-01-02</em>　文繞圖-樣式A（右側選單）</a></li>
+    <li><a href="11/11-01/11-01-03/index.html"><em>11-01-03</em>　文繞圖-樣式B（左側選單）</a></li>
+    <li><a href="11/11-01/11-01-04/index.html"><em>11-01-04</em>　文繞圖-樣式B（右側選單）</a></li>
+    <li><a href="11/11-01/11-01-05/index.html"><em>11-01-05</em>　文繞圖-樣式C（左側選單）</a></li>
+    <li><a href="11/11-01/11-01-06/index.html"><em>11-01-06</em>　文繞圖-樣式C（右側選單）</a></li>
+    <li><a href="11/11-01/11-01-07/index.html"><em>11-01-07</em>　文繞圖-樣式C的應用（左側選單）</a></li>
+    <li><a href="11/11-01/11-01-08/index.html"><em>11-01-08</em>　文繞圖-樣式C的應用（右側選單）</a></li>
+    <li><a href="11/11-01/11-01-09/index.html"><em>11-01-09</em>　絕對配置樣式（左側選單）</a></li>
+    <li><a href="11/11-01/11-01-10/index.html"><em>11-01-10</em>　絕對配置樣式（右側選單）</a></li>
+  </ul>
+</li>
+<li>
+<h3>3段式網頁編排</h3>
+  <ul>
+    <li><a href="11/11-02/11-02-01/index.html"><em>11-02-01</em>　文繞圖-樣式A（</a><a href="11/11-02/11-02-04/index.html">以px為單位指定所有分段寬度</a><a href="11/11-02/11-02-01/index.html">）</a></li>
+    <li><a href="11/11-02/11-02-02/index.html"><em>11-02-02</em>　文繞圖-樣式A（以百分比指定所有分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-03/index.html"><em>11-02-03</em>　文繞圖-樣式B（以px為單位指定所有分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-04/index.html"><em>11-02-04</em>　文繞圖-樣式C（以px為單位指定所有分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-05/index.html"><em>11-02-05</em>　文繞圖-樣式C（固定左右兩分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-06/index.html"><em>11-02-06</em>　文繞圖-樣式C（以百分比指定所有分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-07/index.html"><em>11-02-07</em>　文繞圖-樣式C的應用（以px為單位指定所有分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-08/index.html"><em>11-02-08</em>　絕對配置樣式（以px為單位指定左右分段寬度）</a></li>
+    <li><a href="11/11-02/11-02-09/index.html"><em>11-02-09</em>　絕對配置樣式（以百分比為單位指定全部分段寬度）</a></li>
+  </ul>
+</li>
+<li>
+<h3>網頁導覽</h3>
+  <ul>
+    <li><a href="11/11-03/11-03-01/index.html"><em>11-03-01</em>　使用分隔線隔開條列項目</a></li>
+    <li><a href="11/11-03/11-03-02/index.html"><em>11-03-02</em>　使用區塊標示條列項目（直排）</a></li>
+    <li><a href="11/11-03/11-03-03/index.html"><em>11-03-03</em>　使用區塊標示條列項目（橫排）</a></li>
+    <li><a href="11/11-03/11-03-04/index.html"><em>11-03-04</em>　網頁導覽列</a></li>
+  </ul>
+</li>
+<li>
+<h3>圓角邊框</h3>
+  <ul>
+    <li><a href="11/11-04/11-04-01/index.html"><em>11-04-01</em>　製作2個圓角</a></li>
+    <li><a href="11/11-04/11-04-02/index.html"><em>11-04-02</em>　製作4個圓角</a></li>
+    <li><a href="11/11-04/11-04-03/index.html"><em>11-04-03</em>　製作下落式陰影</a></li>
+  </ul>
+</li>
+<li>
+<h3>供列印用的樣式表</h3>
+  <ul>
+    <li><a href="11/11-05/11-05-01/index.html"><em>11-05-01</em>　供列印用樣式表的範例</a></li>
+    <li><a href="11/11-05/11-05-02/index.html"><em>11-05-02</em>　列印時在連結後面加上URL</a></li>
+  </ul>
+</li>
+<li>
+<h3>避免瀏覽器錯誤的小技巧</h3>
+  <ul>
+    <li><a href="11/11-06/11-06-01/index.html"><em>11-06-01</em>　針對Windows版的IE4~5.5指定專用的CSS</a></li>
+    <li><a href="11/11-06/11-06-02/index.html"><em>11-06-02</em>　針對Mac版的IE5.x指定專用的CSS</a></li>
+    <li><a href="11/11-06/11-06-03/index.html"><em>11-06-03</em>　針對Windows版IE以外的新版瀏覽器指定專用的CSS</a></li>
+    <li><a href="11/11-06/11-06-04/index.html"><em>11-06-04</em>　修正Windows版IE上的配置問題</a></li>
+    <li><a href="11/11-06/11-06-05/index.html"><em>11-06-05</em>　只有Windows版IE5.0能讀入的CSS檔案</a></li>
+    <li><a href="11/11-06/11-06-06/index.html"><em>11-06-06</em>　只有Windows版IE5.5能讀入的CSS檔案</a></li>
+    <li><a href="11/11-06/11-06-07/index.html"><em>11-06-07</em>　只有Windows版IE5.0與IE5.5能讀入的CSS檔案</a></li>
+    <li><a href="11/11-06/11-06-08/index.html"><em>11-06-08</em>　只有Mac版IE5.x能讀入的CSS檔案</a></li>
+    <li><a href="11/11-06/11-06-09/index.html"><em>11-06-09</em>　輸入聲音瀏覽器內的文字1</a></li>
+    <li><a href="11/11-06/11-06-10/index.html"><em>11-06-10</em>　輸入聲音瀏覽器內的文字2</a></li>
+    <li><a href="11/11-06/11-06-11/index.html"><em>11-06-11</em>　輸入聲音瀏覽器內的文字3</a></li>
+  </ul>
+</li>
+</ul>
+
+<p class="back2top">[ <a href="#pagetop">回到前面</a> ]</p>
+</div>
+
+</body>
+</html>
