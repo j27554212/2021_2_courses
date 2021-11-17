@@ -1,5 +1,6 @@
 
 # Linux shell Programming參考書籍
+- [Mastering Linux Shell Scripting - Second Edition](https://www.packtpub.com/product/mastering-linux-shell-scripting-second-edition/9781788990554)
 - [Bash Cookbook (簡體中文版)](https://www.tenlong.com.tw/products/9787115527011) [[GITHUB]](https://github.com/PacktPublishing/Bash-Cookbook)
 - [Bash 資安管理手冊 (Cybersecurity Ops with bash)](https://www.tenlong.com.tw/products/9789865023232)  [[GITHUB]](https://github.com/cybersecurityops/cyber-ops-with-bash)
 - [Linux Shell 程式設計與管理實務, 3/e 臥龍小三  博碩文化 2017-07-09](https://www.tenlong.com.tw/products/9789864342266)
