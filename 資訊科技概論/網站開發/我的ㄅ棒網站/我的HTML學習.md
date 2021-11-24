@@ -63,6 +63,7 @@
 ```
 ## 其他HTML 戰技
 
+- [網頁跑馬燈語法教學 HTML marquee 程式設計](https://www.wibibi.com/info.php?tid=68)
 - 網頁自動導向
 
 
