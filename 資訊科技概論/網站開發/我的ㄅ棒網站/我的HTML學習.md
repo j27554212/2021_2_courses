@@ -41,7 +41,14 @@
 - [HTML font 文字](https://www.wibibi.com/info.php?tid=397)
 
 ## 超連結
-```
+- HTML a href 超連結標籤
+- 常用到的三個功能分別是 href、target 以及 title
+- href 用來標示超連結要連到哪個網址
+- target 用來標示連結的目標
+  - target="_blank" - 意思是在新視窗開啟
+  - target="_self" - 意思是在原本的視窗開啟
+  - target="_parent" - 意思是在父層視窗開啟
+
 - 相對URL 的路徑資訊==> <base> 元素
 ```
 ## 圖片
