@@ -14,7 +14,12 @@
   - 用來標示網頁的許多基本資訊
   - 瀏覽器（browser）會根據 `<head></head>` 標籤內的資訊，呈現出設計師所設計的網頁樣貌
   - 一個網頁僅能有一組 head 標籤，也只需要一組 head 標籤 
+  - [HTML title 網頁標題](https://www.wibibi.com/info.php?tid=118)
+  - [HTML meta 標籤](https://www.wibibi.com/info.php?tid=415)
+
 - HTML 文件的主體`<body>` 元素
+
+  - [HTML H1 H2 H3 H4 H5 H6 標題](https://www.wibibi.com/info.php?tid=354)
 - HTML5 新增的結構元素 
 
 ## 文件結構與基本排版
@@ -25,12 +30,15 @@
   - <address> 元素 (聯絡資訊)
   - <hr> 元素 (水平線)
 
-- 文字格式
+- 
 - 插入或刪除資料==> <ins>、<del> 元素
 - 項目符號與編號==> <ul>、<ol>、<li> 元素
 - 定義清單 ==> <dl>、<dt>、<dd> 元素
 ```
+## 文字格式
 
+- [HTML 網頁文字加入底線](https://www.wibibi.com/info.php?tid=143)
+- [HTML font 文字](https://www.wibibi.com/info.php?tid=397)
 
 ## 超連結
 ```
@@ -60,7 +68,6 @@
 - 嵌入Script ==> <script>、<noscript> 元素
 - 嵌入浮動框架 ==> <iframe> 元素
 - 內嵌youtube影片
-
 ```
 ## 表單(FORM)
 ```
