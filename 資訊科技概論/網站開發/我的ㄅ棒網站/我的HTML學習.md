@@ -7,7 +7,7 @@
 - HTML 文件的根元素`<html>` 元素 
 
 
-- HTML 文件的標頭`<head>` 元素 
+- [HTML 文件的標頭`<head>` 元素](https://www.wibibi.com/info.php?tid=414)
   - `<head>` 標籤開始，至` </head>` 標籤結束
   - 寫在網頁 HTML 程式碼的最開頭部分
   - 開頭 `<head>` 與結尾 `</head>` 標籤之間，可以放置網頁的其他重要元素，如 title、meta、link、script、style、base 等
