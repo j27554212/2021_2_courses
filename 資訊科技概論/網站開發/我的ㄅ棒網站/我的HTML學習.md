@@ -33,10 +33,12 @@
 
 ## 表格(Table)
 
+```
 - 建立表格==> <table>、<tr>、<td>、<th> 元素
 - 表格標題==> <caption> 元素
 - 表格的表頭、主體與表尾－<thead>、<tbody>、<tfoot> 元素
 - 直行式表格==> <colgroup>、<col> 元素
+```
 
 
 ## 聲音(audio) 與 影片(Video)
