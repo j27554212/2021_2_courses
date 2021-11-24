@@ -1,13 +1,13 @@
 
 
 ## HTML檔案結構
-```
+
 - 範例程式與 doctype
-- HTML 文件的根元素－<html> 元素 
-- HTML 文件的標頭－<head> 元素 
-- HTML 文件的主體－<body> 元素
+- HTML 文件的根元素`<html>` 元素 
+- HTML 文件的標頭`<head>` 元素 
+- HTML 文件的主體`<body>` 元素
 - HTML5 新增的結構元素 
-```
+
 ## 文件結構與基本排版
 ```
 - 區塊格式
