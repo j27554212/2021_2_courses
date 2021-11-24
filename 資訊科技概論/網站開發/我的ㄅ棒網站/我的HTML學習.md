@@ -39,9 +39,23 @@
 - 有序清單列表(Ordered List)與編號==>` <ol>、<li>` 元素
 - 定義清單(Description List) ==>` <dl>、<dt>、<dd>` 元素
 
-```
-## 文字格式
+- 如何把清單列表lists 置中 呈現? [How to center an unordered list?](https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list)
 
+```
+## 文字格式 [HTML Formatting Elements](https://www.w3schools.com/html/html_formatting.asp)
+- Formatting elements were designed to display special types of text:
+```
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+```
 - [HTML 網頁文字加入底線](https://www.wibibi.com/info.php?tid=143)
 - [HTML font 文字](https://www.wibibi.com/info.php?tid=397)
 
@@ -57,11 +71,16 @@
 
 - [相對URL 的路徑資訊 `<base>` ](https://www.fooish.com/html/base-tag.html)
 
-## 圖片
-```
-- 嵌入圖片==> <img> 元素
-- 標註==> <figure>、<figcaption> 元素
-```
+## 圖片的展示 [HTML Images](https://www.w3schools.com/html/html_images.asp)
+  
+- 嵌入圖片==> `<img>` 元素 Images
+- Image Map(圖片地圖)
+- Background Images(背景圖片)
+- The `Picture` Element
+- 可附標題內容的圖片 `<figure>、<figcaption>` 元素
+  
+- `<img>` `<figure>` `Picture`有何區別?
+
 ## 表格(Table)
 
 ```
