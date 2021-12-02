@@ -30,7 +30,7 @@
   - [address 元素 (聯絡資訊)](https://www.w3schools.com/tags/tag_address.asp)
   - [hr 元素 (水平線)](https://www.w3schools.com/tags/tag_hr.asp)
  
-- 插入或刪除資料==> <ins>、<del> 元素
+- 插入或刪除資料==> ins、del 元素
 
 ```html
   <html> 
