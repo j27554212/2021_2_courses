@@ -27,8 +27,8 @@
 - 區塊格式
   - [pre 元素 (預先格式化區塊)](https://github.com/MyDearGreatTeacher/2021_2_courses/blob/main/%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80%E6%A6%82%E8%AB%96/%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC/%E6%88%91%E7%9A%84%E3%84%85%E6%A3%92%E7%B6%B2%E7%AB%99/html_pre.md)
   - [blockquote 元素 (引述區塊)](https://developer.mozilla.org/zh-TW/docs/Web/HTML/Element/blockquote)  [說明2](https://www.w3schools.com/tags/tag_blockquote.asp)
-  - <address> 元素 (聯絡資訊)
-  - <hr> 元素 (水平線)
+  - [address 元素 (聯絡資訊)](https://www.w3schools.com/tags/tag_address.asp)
+  - [hr 元素 (水平線)](https://www.w3schools.com/tags/tag_hr.asp)
  
 - 插入或刪除資料==> <ins>、<del> 元素
 
@@ -48,9 +48,14 @@
 		
 		<blockquote cite="http://developer.mozilla.org">
         <p>這是取自於 Mozilla Developer Center 的引言。</p>
+			
+	<hr>
+			
         </blockquote>
       
-      		<address>
+	<hr>
+      	
+	<address>
         Written by <a href="mailto:8wingflying@gmail.com">My dear Great teacher</a>.<br>
         Visit us at:<br>
          MYdeargreatteacher.com<br>
