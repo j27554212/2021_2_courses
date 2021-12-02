@@ -19,8 +19,9 @@
     - document.write(5 + 6);
   - [輸出到windows alert視窗]()
     - window.alert(5 + 6);
+## [DOM (Document Object Model)](https://www.w3schools.com/js/js_htmldom.asp)
 
-
+## [Browser Object Model (BOM)](https://www.w3schools.com/js/js_window.asp)
 
 ## js1.html
 
