@@ -9,14 +9,29 @@
 - 標題:使用pycrypto實作現代密碼學
 
 - 現代密碼學
-  - 非對稱式(公開)金鑰系統加解密: RSA,
+  - 非對稱式(公開)金鑰系統加解密: 
+    - RSA
+    - ELGAMAL
+    - ECC
   - 對稱式金鑰系統加解密
+    - DES
+    - 3DES
+    - AES 
   - Hash
+    - MD5
+    - SHA,.... 
 - python現代密碼模組:
   - Python Cryptography Toolkit (pycrypto)
   - PyCryptodome
   - cryptography 
 - python現代密碼模組:pycrypto
+  - 模組架構
+    - Crypto.Hash: Hash Functions
+    - Crypto.Cipher: Encryption Algorithm
+    - Crypto.Protocol: Various Protocols
+    - Crypto.PublicKey: Public-Key Algorithms
+    - Crypto.Util: Odds and Ends
+      - Crypto.Util.number 
 - pycrypto現代密碼模實作
   - 非對稱式(公開)金鑰系統加解密實作
   - 對稱式金鑰系統加解密實作
