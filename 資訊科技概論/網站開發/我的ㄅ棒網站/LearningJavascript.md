@@ -11,8 +11,14 @@
   - <script src="https://d3js.org/d3.v4.js"></script> 
 
 
-
-
+- [如何在 JavaScript 中獲取輸入值](https://www.delftstack.com/zh-tw/howto/javascript/javascript-get-input-value/)
+  -  
+- [output]
+  - [輸出到browser console](https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_console) 
+  - [輸出到HTML]()
+    - document.write(5 + 6);
+  - [輸出到windows alert視窗]()
+    - window.alert(5 + 6);
 
 
 
@@ -74,10 +80,39 @@ svg.append("circle")
 
 
 
-##
+## 
 
 ```
+<!DOCTYPE html> 
+<html> 
+  
+<body> 
+  
+  <h4> 
+      Change the text of the text field  
+      ,and then click the button. 
+  </h4> 
+  
+  <label for="domTextElement">Name: </label>
+  <input type="text" id="domTextElement" > 
+  
+  <button type="button"  onclick="getValueInput()"> 
+      click me!! 
+  </button> 
+  
+  <p id="valueInput"></p> 
 
+  <script> 
+
+    const getValueInput = () =>{
+      let inputValue = document.getElementById("domTextElement").value; 
+      document.getElementById("valueInput").innerHTML = inputValue; 
+    }
+    
+  </script> 
+</body> 
+  
+</html> 
 ```
 
 
