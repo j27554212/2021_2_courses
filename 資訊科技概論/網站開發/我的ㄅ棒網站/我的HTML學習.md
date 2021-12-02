@@ -23,17 +23,17 @@
 - HTML5 新增的結構元素 
 
 ## 文件結構與基本排版
-```
+
 - 區塊格式
-  - <pre> 元素 (預先格式化區塊)
+  - [<pre> 元素 (預先格式化區塊)](https://github.com/MyDearGreatTeacher/2021_2_courses/blob/main/%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80%E6%A6%82%E8%AB%96/%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC/%E6%88%91%E7%9A%84%E3%84%85%E6%A3%92%E7%B6%B2%E7%AB%99/html_pre.md)
   - <blockquote> 元素 (引述區塊)
   - <address> 元素 (聯絡資訊)
   - <hr> 元素 (水平線)
-
-- 
+ 
 - 插入或刪除資料==> <ins>、<del> 元素
 
-```
+
+
 ## [清單列表lists](https://www.w3schools.com/html/html_lists.asp)
 - 無順序清單列表(Unordered List)與編號==>` <ul>、<li>` 元素
 - 有序清單列表(Ordered List)與編號==>` <ol>、<li>` 元素
