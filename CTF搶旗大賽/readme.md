@@ -15,7 +15,6 @@ https://www.facebook.com/%E9%AB%98%E4%B8%AD%E8%81%B7%E7%94%9F%E8%B3%87%E5%AE%89%
 
 - [Kali系統下載區(本學期使用的主軸)](https://drive.google.com/file/d/1awLNHsJKgga2W0XFycnBmPEgzx4221Wi/view?usp=sharing)
 - [Ubuntu 18.04LTS系統下載區](https://drive.google.com/file/d/1QPy_Ztk5Gl1ZkHRRCCytEJRem0KjItOw/view?usp=sharing)
-- [Modern Cryptography for Cybersecurity Professionals By Lisa Bock(2021)](https://www.packtpub.com/product/modern-cryptography-for-cybersecurity-professionals/9781838644352)
 
 ## 3.python現代密碼實測
 ```
