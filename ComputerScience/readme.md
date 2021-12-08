@@ -1,3 +1,8 @@
+# 
+- [崑山網路大學]( elearning2.ksu.edu.tw)
+- elearning2.ksu.edu.tw
+
+
 # python programming
 
 https://github.com/MyFirstSecurity2020/HappyPythonDay/tree/main/1_Python%E7%A8%8B%E5%BC%8F%E5%85%A5%E9%96%80
