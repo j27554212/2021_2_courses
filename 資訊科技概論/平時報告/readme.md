@@ -33,6 +33,11 @@
 
 
 ## CSS開發技術
+- [Inline CSS](https://www.w3schools.com/html/html_css.asp)
+- [Internal CSS](https://www.w3schools.com/html/html_css.asp)
+- [External CSS](https://www.w3schools.com/html/html_css.asp)
+  - 相同目錄下的XXX.css
+  - 遠方網站的YYY.css  
 
 ## JAVAscript開發技術
 
