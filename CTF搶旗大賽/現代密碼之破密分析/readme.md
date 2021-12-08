@@ -10,5 +10,4 @@
     - POODLE attack(Padding Oracle Attack)
   - 雜湊函式攻擊
     - Collision attack
-    - 長度擴充攻擊LEA Attack
-    - LEA CTF解題
+    - 長度擴充攻擊LEA Attack 與LEA CTF解題
