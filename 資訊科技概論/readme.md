@@ -1,3 +1,8 @@
+#
+- [崑山網路大學]( elearning2.ksu.edu.tw)
+- elearning2.ksu.edu.tw
+
+
 # 課程相關學習資源 linux
 - [LINUX](https://github.com/MyDearGreatTeacher/2021_2_courses/tree/main/linux)
 - [virtualbox下載區](https://www.virtualbox.org/)
