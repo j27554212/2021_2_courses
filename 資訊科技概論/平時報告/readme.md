@@ -14,6 +14,11 @@
 - 客戶端網頁程式開發(Client-side web programming)
 - 伺服端網頁程式開發(Server-side web programming)
 
+## 網站建置
+- xampp :一頁說明
+- 安裝過程: 三頁說明
+- 網站目錄:一頁說明
+
 ## HTML 開發技術
 
 - [Paragraphs]()
