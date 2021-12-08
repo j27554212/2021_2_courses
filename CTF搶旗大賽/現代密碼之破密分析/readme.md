@@ -7,6 +7,7 @@
     - 小e攻擊 
   - 對稱式密碼之破密分析
     - [Cut and Paste Attack On AES-ECB](https://id0-rsa.pub/problem/26/) 
+    - POODLE attack(Padding Oracle Attack)
   - 雜湊函式攻擊
     - Collision attack
     - 長度擴充攻擊LEA Attack
