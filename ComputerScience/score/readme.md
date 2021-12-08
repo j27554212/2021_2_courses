@@ -1,7 +1,9 @@
 
 
 
-# mid term 20%
+# mid term 20%(powerpoint >= 50+)
+- python programming
+- 
 
 # final 30%(powerpoint >= 100+)
   - Title: Web development
