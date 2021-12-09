@@ -20,21 +20,21 @@
 - 網站目錄:一頁說明
 
 ## HTML 開發技術
-
-- [Paragraphs]()
+- [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
   - [div](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div)
 - [HTML Images](https://www.w3schools.com/html/html_images.asp)
   - [gif animation](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman)
-  - Image Map
+  - [Image Map](https://www.w3schools.com/html/html_images_imagemap.asp)
   - [Background Image on a HTML element](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_background3) 
-- Marquee
-- Audio
-- Video
-- HTML YouTube Videos
+- [Marquee](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee)
+- [Audio](https://www.w3schools.com/html/html5_audio.asp)
+- [Video](https://www.w3schools.com/html/html5_video.asp)
+- [HTML YouTube Videos](https://www.w3schools.com/html/html_youtube.asp)
 - [frame](https://www.w3schools.com/html/html_iframe.asp)
 - [Table](https://www.w3schools.com/html/html_tables.asp)
-- Form
-- [HTML canvas]()
+- [Form](https://www.w3schools.com/html/html_forms.asp)
+- [HTML canvas](https://www.w3schools.com/html/html5_canvas.asp)
   - [A looping panorama](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations) 
 - [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
 - [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
