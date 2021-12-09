@@ -24,7 +24,7 @@
 - [Paragraphs]()
   - [div](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div)
 - [HTML Images](https://www.w3schools.com/html/html_images.asp)
-  - gif動畫
+  - [gif animation](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman)
   - Image Map
   - [Background Image on a HTML element](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_background3) 
 - Marquee
