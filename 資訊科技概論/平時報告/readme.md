@@ -11,8 +11,8 @@
 
 ## Web programming
 - 2-4頁簡報說明
-- 客戶端網頁程式開發(Client-side web programming)
-- 伺服端網頁程式開發(Server-side web programming)
+- 客戶端網頁程式開發(Client-side web programming)
+- 伺服端網頁程式開發(Server-side web programming)
 
 ## 網站建置
 - xampp :一頁說明
@@ -34,6 +34,8 @@
 - [frame](https://www.w3schools.com/html/html_iframe.asp)
 - [Table](https://www.w3schools.com/html/html_tables.asp)
 - Form
+- [HTML canvas]()
+  - [A looping panorama](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations) 
 - [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
 - [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 
