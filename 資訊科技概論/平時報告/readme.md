@@ -22,14 +22,20 @@
 ## HTML 開發技術
 
 - [Paragraphs]()
-- HTML Images
+  - [div](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div)
+- [HTML Images](https://www.w3schools.com/html/html_images.asp)
+  - gif動畫
+  - Image Map
+  - [Background Image on a HTML element](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_background3) 
 - Marquee
 - Audio
 - Video
 - HTML YouTube Videos
-- iframe
-- Table
+- [frame](https://www.w3schools.com/html/html_iframe.asp)
+- [Table](https://www.w3schools.com/html/html_tables.asp)
 - Form
+- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
+- [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 
 
 ## CSS開發技術
