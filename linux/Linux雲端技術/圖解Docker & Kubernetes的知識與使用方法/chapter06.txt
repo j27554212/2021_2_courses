@@ -1,0 +1,116 @@
+■6-02：STEP 0 Apacheコンテナを作成しておく
+docker run --name apa000ex19 -d -p 8089:80 httpd
+
+
+■6-02：［事前準備］index.htmlファイルを作成する
+(chapter06フォルダのindex.html 参照)
+
+
+■6-02：STEP 2 「cp」コマンドを実行して、ホストからコンテナへファイルをコピー
+※「ユーザー名」は使用されているPCのログイン環境に合わせてください
+
+・Windows
+docker cp C:\Users\ユーザー名\Documents\index.html apa000ex19:/usr/local/apache2/htdocs/
+
+・Mac
+docker cp /Users/ユーザー名/Documents/index.html apa000ex19:/usr/local/apache2/htdocs/
+
+・Linux
+docker cp /home/ユーザー名/index.html apa000ex19:/usr/local/apache2/htdocs/
+
+
+
+■6-02：STEP 1 「cp」コマンドを実行して、コンテナからホストへファイルをコピー
+・Windows
+docker cp apa000ex19:/usr/local/apache2/htdocs/index.html C:\Users\ユーザー名\Documents\
+
+・Mac
+docker cp apa000ex19:/usr/local/apache2/htdocs/index.html /Users/ユーザー名/Documents/
+
+・Linux
+docker cp apa000ex19:/usr/local/apache2/htdocs/index.html /home/ユーザー名/
+
+
+
+■6-03：記憶領域をマウントするコマンド  STEP 2 「run」コマンドでApacheコンテナを起動する
+・Windows
+docker run --name apa000ex20 -d -p 8090:80 -v C:\Users\ユーザー名\Documents\apa_folder:/usr/local/apache2/htdocs httpd
+
+
+・Mac
+docker run --name apa000ex20 -d -p 8090:80 -v /Users/ ユーザー名/Documents/apa_folder:/usr/local/apache2/htdocs httpd
+
+・Linux
+docker run --name apa000ex20 -d -p 8090:80 -v /home/ユーザー名/apa_folder:/usr/local/apache2/htdocs httpd
+
+
+
+■6-03：［手順］< 応用> ボリュームマウントしてみよう  STEP 1 マウントするボリュームを作成する
+docker volume create apa000vol1
+
+
+
+■6-03：STEP 2 「run」コマンドでApacheコンテナを起動する
+docker run --name apa000ex21 -d -p 8091:80 -v apa000vol1:/usr/local/apache2/htdocs httpd
+
+
+
+■6-03：STEP 3 「volume inspect」コマンドでボリュームの詳細情報を表示
+・ボリューム
+docker volume inspect apa000vol1
+
+・コンテナ
+docker container inspect apa000ex21
+
+
+
+■6-03：STEP 4 後始末を行う
+docker volume rm apa000vol1
+
+
+
+■6-03：COLUMN ボリュームのバックアップ
+・上記設定に沿った記述
+docker run --rm -v apa000vol1:/moto -v C:\Users\ユーザー名\Documents:/saki busybox tar czvf /saki/backup_apa.tar.gz -C /moto .
+
+
+・よく使う記述例（リストア）
+docker run --rm -v apa000vol2:/moto -v C:\Users\ユーザー名\Documents:/saki busybox tar xzvf /saki/backup_apa.tar.gz -C /moto
+
+
+
+■6-04：STEP 0 Apacheコンテナを作成しておく
+docker run --name apa000ex22 -d -p 8092:80 httpd
+
+
+
+
+■6-04：STEP 1 コンテナをイメージに書き出す
+docker commit apa000ex22 ex22_original1
+
+
+
+■6-04：STEP 2 イメージが作成されたことを確認する
+docker image ls
+
+
+
+■6-04：［手順］＜応用＞コンテナをDockerfileでイメージ化しよう STEP 2 Dockerfile を作成する
+(chapter06フォルダのDockerfile 参照)
+
+
+■6-04：STEP 3 「build」コマンドを実行してイメージを作る
+・Windows
+docker build -t ex22_original2 C:\Users\ユーザー名\Documents\apa_folder\
+
+・Mac
+docker build -t ex22_original2 /Users/ユーザー名/Documents/apa_folder/
+
+・Linux
+docker build -t ex22_original2 /home/ユーザー名/apa_folder/
+
+
+■6-04：STEP 4 イメージが作成されたことを確認する
+docker image ls
+
+

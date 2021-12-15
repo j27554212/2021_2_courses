@@ -1,0 +1,79 @@
+■5-02：STEP 1 「netowork create」コマンドでネットワークを作成する
+docker network create wordpress000net1
+
+
+
+■5-02：STEP 2 「run」コマンドを実行してMySQLコンテナを作成・起動する
+docker run --name mysql000ex11 -dit --net=wordpress000net1 -e MYSQL_ROOT_PASSWORD=myrootpass -e MYSQL_DATABASE=wordpress000db -e MYSQL_USER=wordpress000kun -e MYSQL_PASSWORD=wkunpass mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+
+
+
+■5-02：STEP 3 「run」コマンドを実行してWordPressコンテナを作成・起動する
+docker run --name wordpress000ex12 -dit --net=wordpress000net1 -p 8085:80 -e WORDPRESS_DB_HOST=mysql000ex11 -e WORDPRESS_DB_NAME=wordpress000db -e WORDPRESS_DB_USER=wordpress000kun -e WORDPRESS_DB_PASSWORD=wkunpass wordpress
+
+
+
+
+■5-02：STEP 4 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■5-02：STEP 6 後始末をする
+docker stop wordpress000ex12
+docker stop mysql000ex11
+docker rm wordpress000ex12
+docker rm mysql000ex11
+docker network rm wordpress000net1
+
+
+
+■5-03：解答 1
+（「■5-02：STEP 3 「run」コマンドを実行してWordPressコンテナを作成・起動する」を参照）
+
+
+
+■5-03：解答 2
+（「■5-02：STEP 3 「run」コマンドを実行してWordPressコンテナを作成・起動する」を参照）
+
+
+
+■5-04：RedmineとMySQL のコンテナを作ろう
+〇使用するコマンドのオプション、対象、引数
+・ネットワークの作成
+docker network create redmine000net2
+
+・MySQLコンテナの作成・起動
+docker run --name mysql000ex13 -dit --net=redmine000net2 -e MYSQL_ROOT_PASSWORD=myrootpass -e MYSQL_DATABASE=redmine000db -e MYSQL_USER=redmine000kun -e MYSQL_PASSWORD=rkunpass mysql --character-set-server=utf8mb4 --collation-server= utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+
+・Redmineコンテナの作成・起動
+docker run -dit --name redmine000ex14 --network redmine000net2 -p 8086:3000 -e REDMINE_DB_MYSQL=mysql000ex13 -e REDMINE_DB_DATABASE=redmine000db -e REDMINE_DB_USERNAME=redmine000kun -e REDMINE_DB_PASSWORD=rkunpass redmine
+
+
+
+■5-04：RedmineとMariaDB のコンテナを作ろう
+〇使用するコマンドのオプション、対象、引数
+・ネットワークの作成
+docker network create redmine000net3
+
+
+・MariaDBコンテナの作成・起動
+docker run --name mariadb000ex15 -dit --net=redmine000net3 -e MYSQL_ROOT_PASSWORD=mariarootpass -e MYSQL_DATABASE=redmine000db -e MYSQL_USER=redmine000kun -e MYSQL_PASSWORD=rkunpass mariadb --character-set-server=utf8mb4 --collationserver=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+
+
+・Redmineコンテナの作成・起動
+docker run -dit --name redmine000ex16 --network redmine000net3 -p 8087:3000 -e REDMINE_DB_MYSQL=mariadb000ex15 -e REDMINE_DB_DATABASE=redmine000db -e REDMINE_DB_USERNAME=redmine000kun -e REDMINE_DB_PASSWORD=rkunpass redmine
+
+
+
+■5-04：WordPressとMariaDBの組み合わせも挑戦してみよう
+・ネットワークの作成
+docker network create wordpress000net4
+
+・MariaDBコンテナの作成・起動
+docker run --name mariadb000ex17 -dit --net=wordpress000net4 -e MYSQL_ROOT_PASSWORD=mariarootpass -e MYSQL_DATABASE=wordpress000db -e MYSQL_USER=wordpress000kun -e MYSQL_PASSWORD=wkunpass mariadb --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+
+・WordPressコンテナの作成・起動
+docker run --name wordpress000ex18 -dit --net=wordpress000net4 -p 8088:80 -e WORDPRESS_DB_HOST=mariadb000ex17 -e WORDPRESS_DB_NAME=wordpress000db -e WORDPRESS_DB_USER=wordpress000kun -e WORDPRESS_DB_PASSWORD=wkunpass wordpress
+
+

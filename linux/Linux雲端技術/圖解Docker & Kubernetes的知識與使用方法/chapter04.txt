@@ -1,0 +1,172 @@
+■4-02：STEP 1「version」コマンドを実行する
+docker version
+
+
+
+■4-03：すべてのコンテナの一覧を表示する
+docker ps -a
+
+
+
+■4-03：STEP 1 「run」コマンドを実行する
+docker run --name apa000ex1 -d httpd
+
+
+
+■4-03：STEP 2 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■4-03：STEP 3 「stop」コマンドでコンテナを停止する
+docker stop apa000ex1
+
+
+
+■4-03：STEP 5 「ps」コマンドに引数を付けて、コンテナの存在を確認する
+docker ps -a
+
+
+
+■4-03：STEP 6 「rm」コマンドで、「apa000ex1」コンテナを削除する
+docker rm apa000ex1
+
+
+■4-03：STEP 7 「ps」コマンドに引数を付けて、コンテナの消去を確認する
+docker ps -a
+
+
+
+■4-04：STEP 1 「run」コマンドを実行する
+docker run --name apa000ex2 -d -p 8080:80 httpd
+
+
+
+■4-04：STEP 2 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■4-04：STEP 4 「stop」コマンドでコンテナを停止する
+docker stop apa000ex2
+
+
+
+■4-04：STEP 5 「rm」コマンドで、「apa000ex2」コンテナを削除する
+docker rm apa000ex2
+
+
+
+■4-04：STEP 6 コマンドに引数を付けて、コンテナの消去を確認する
+docker ps -a
+
+
+■4-05：STEP 1 「run」コマンドを実行する
+docker run --name apa000ex3 -d -p 8081:80 httpd
+docker run --name apa000ex4 -d -p 8082:80 httpd
+docker run --name apa000ex5 -d -p 8083:80 httpd
+
+
+
+■4-05：STEP 2 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■4-05：STEP 4 「stop」コマンドでコンテナを停止する
+docker stop apa000ex3
+docker stop apa000ex4
+docker stop apa000ex5
+
+
+■4-05：STEP 5 「rm」コマンドで、コンテナを削除する
+docker rm apa000ex3
+docker rm apa000ex4
+docker rm apa000ex5
+
+
+
+■4-05：STEP 6 「ps」コマンドに引数を付けて、コンテナの消去を確認する
+docker ps -a
+
+
+
+■4-05：［手順］nginx のコンテナを作ってみよう　STEP 1 「run」コマンドを実行する
+docker run --name nginx000ex6 -d -p 8084:80 nginx
+
+
+
+■4-05：STEP 2 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■4-05：STEP 4 「stop」コマンドでコンテナを停止する
+docker stop nginx000ex6
+
+
+
+■4-05：STEP 5 「rm」コマンドで、コンテナを削除する
+docker rm nginx000ex6
+
+
+
+■4-05：STEP 6 「ps」コマンドに引数を付けて、コンテナの消去を確認する
+docker ps -a
+
+
+
+■4-05：［手順］MySQL のコンテナを作ってみよう STEP 1 「run」コマンドを実行する
+docker run --name mysql000ex7 -dit -e MYSQL_ROOT_PASSWORD=myrootpass mysql
+
+
+
+■4-05：STEP 2 「ps」コマンドでコンテナの稼働を確認する
+docker ps
+
+
+
+■4-05：STEP 3 「stop」コマンドでコンテナを停止する
+docker stop mysql000ex7
+
+
+
+■4-05：STEP 4 「rm」コマンドで、コンテナを削除する
+docker rm mysql000ex7
+
+
+
+■4-05：STEP 5 「ps」コマンドに引数を付けて、コンテナの消去を確認する
+docker ps -a
+
+
+
+■4-06：STEP 1 「ps」コマンドに引数を付けて、コンテナの稼働や存在を確認する
+docker ps -a
+
+
+
+■4-06：STEP 2 「image ls」コマンドで、イメージの存在を確認する
+docker image ls
+
+
+
+■4-06：STEP 3 「image rm」コマンドで、イメージを削除する
+docker image rm httpd
+
+
+
+■4-06：STEP 4 「image ls」コマンドで、イメージの消去を確認する
+docker image ls
+
+
+
+■4-06：STEP 5 「image rm」コマンドで、イメージを削除する
+docker image rm nginx mysql
+
+
+
+■4-06：STEP 6 「image ls」コマンドで、イメージの消去を確認する
+docker image ls
+
+
