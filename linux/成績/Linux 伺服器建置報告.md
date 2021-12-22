@@ -51,3 +51,6 @@ Starting apache2 (via systemctl): apache2.service.
 ### 打開瀏覽器 ==> 輸入網址 127.0.0.1 ==>  就  成功
 
 ![apache1.png](./apache1.png)
+
+### 檢視你電腦的IP==> 輸入網址==>  也  成功
+![apache2.png](./apache2.png)
