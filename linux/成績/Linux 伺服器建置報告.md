@@ -40,3 +40,11 @@ haveged              ntp                saned                        xl2tpd
 #/etc/init.d/apache2 stop
 #/etc/init.d/apache2 restart
 ```
+## ./apache2 -h 
+```
+Usage: apache2 {start|stop|graceful-stop|restart|reload|force-reload}
+```
+### ./apache2 start
+```
+Starting apache2 (via systemctl): apache2.service.
+```
