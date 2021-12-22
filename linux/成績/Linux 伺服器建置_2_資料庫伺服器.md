@@ -14,6 +14,14 @@ mariadb.service - MariaDB 10.5.12 database server
              https://mariadb.com/kb/en/library/sy
 ```
 - mysql --help   
+- service mysql start  ==>啟動Mysql
+- service mysql status  ==>檢視Mysql是否有啟動
+
+![mysql.png](./mysql.png)
+
+
+
+###  mysql --help   
 ```                                          
 mysql  Ver 15.1 Distrib 10.5.12-MariaDB, for debian-linux-gnu (x86_64) using  EditLine wrapper
 Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
