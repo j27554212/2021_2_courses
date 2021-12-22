@@ -57,4 +57,6 @@ Starting apache2 (via systemctl): apache2.service.
 
 
 # 網站開發
-- 網站跟目錄 ==>/var/www/html
+- 網站根目錄 ==>/var/www/html
+
+![web1.png](web1.png)
