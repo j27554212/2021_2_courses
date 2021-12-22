@@ -17,7 +17,7 @@ mariadb.service - MariaDB 10.5.12 database server
 - service mysql start  ==>啟動Mysql
 - service mysql status  ==>檢視Mysql是否有啟動
 
-![mysql.png](./mysql.png)
+![mysql1.png](./mysql1.png)
 
 
 
