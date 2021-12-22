@@ -59,4 +59,27 @@ Starting apache2 (via systemctl): apache2.service.
 # 網站開發
 - 網站根目錄 ==>/var/www/html
 
-![web1.png](web1.png)
+![web1.png](./web1.png)
+
+## 在網站根目錄/var/www/html底下開始開發程式 ==> 使用nano html2.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY First web programming</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<h1>Mydeargreatteacher : Happy Web Day</h1>
+
+<p>Happpy Christmas</p>
+
+</body>
+</html>
+```
+
+![web2.png](./web2.png)
+
+![web3.png](./web3.png)
