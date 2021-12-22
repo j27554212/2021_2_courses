@@ -83,3 +83,31 @@ Starting apache2 (via systemctl): apache2.service.
 ![web2.png](./web2.png)
 
 ![web3.png](./web3.png)
+
+## 加入ＣＳＳ ==> html3.html
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY First web programming</title>
+	<meta charset="utf-8">
+   <style>
+p {
+  text-align: center;
+  color: red;
+} 
+</style>
+</head>
+
+<body>
+
+<h1>Mydeargreatteacher : Happy Web Day</h1>
+
+<p>Happpy Christmas</p>
+
+</body>
+</html>
+
+```
+
+![web4.png](./web4.png)
