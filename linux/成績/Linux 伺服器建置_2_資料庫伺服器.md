@@ -292,3 +292,11 @@ default-auth                      (No default value)
 binary-mode                       FALSE
 connect-expired-password          FALSE
 ```
+
+### 更改密碼
+```
+MariaDB [(none)]> ALTER USER 'root'@'localhost' IDENTIFIED BY 'ksu1234';
+```
+
+![mysql2.png](./mysql2.png)
+
