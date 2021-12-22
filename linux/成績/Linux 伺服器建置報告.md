@@ -5,7 +5,7 @@
  - PHP
  - 網站程式開發
 
-## apache 網站伺服器建置: 以Kali linux 2021.3版為基礎
+# 1_apache 網站伺服器建置: 以Kali linux 2021.3版為基礎
 
 ### service apache2 status
 ```
@@ -48,3 +48,6 @@ Usage: apache2 {start|stop|graceful-stop|restart|reload|force-reload}
 ```
 Starting apache2 (via systemctl): apache2.service.
 ```
+### 成功
+
+![apache1.png](./apache1.png)
