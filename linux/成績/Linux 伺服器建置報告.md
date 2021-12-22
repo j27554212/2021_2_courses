@@ -54,3 +54,7 @@ Starting apache2 (via systemctl): apache2.service.
 
 ### 檢視你電腦的IP==> 輸入網址==>  也  成功
 ![apache2.png](./apache2.png)
+
+
+# 網站開發
+- 網站跟目錄 ==>/var/www/html
