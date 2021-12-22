@@ -48,6 +48,6 @@ Usage: apache2 {start|stop|graceful-stop|restart|reload|force-reload}
 ```
 Starting apache2 (via systemctl): apache2.service.
 ```
-### 成功
+### 打開瀏覽器 ==> 輸入網址 127.0.0.1 ==>  就  成功
 
 ![apache1.png](./apache1.png)
