@@ -7,8 +7,9 @@
   - External mass storage
   - Input and output mechanisms
 - stored-program ==> `instructions(指令)`
-  -  instructions(機器指令|第一代程式) ==> 組合語言(機器指令翻成人看得懂的程式語言|第二代程式)
-  -  statement| program ==> C (高階語言|第三代程式)
+  -  instructions(機器指令|第一代程式) ==> 組合語言(機器指令翻成人看得懂的程式語言|第二代程式)  ==> low-level
+  -  statement| program ==> C (高階語言|第三代程式) ==> high-level
+  -  第4代程式 ==> SQL
 - 機器週期（machine cycle）或指令週期（instruction cycle）
   - 當 CPU 在執行每個指令時，會經過一組 4 個步驟 ==> 機器週期（machine cycle）或指令週期（instruction cycle）
   - 機器週期是由擷取（fetch）、解碼（decode）、執行（execute）和儲存（store） 4 個步驟所組成。
