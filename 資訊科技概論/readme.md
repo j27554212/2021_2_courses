@@ -1,6 +1,6 @@
 # Google Meet
 
-https://meet.google.com/dkf-xxzt-ptz
+https://meet.google.com/
 
 #
 - [崑山網路大學]( elearning2.ksu.edu.tw)
