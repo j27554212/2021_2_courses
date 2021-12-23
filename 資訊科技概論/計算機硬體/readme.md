@@ -25,6 +25,9 @@
 
 ## 電腦的記憶體
 - 負責保存正在被 CPU 處理的資料和程式
+
+![memory.jpg](./memory.jpg)
+
 - 隨機存取記憶體（random access memory, RAM）是儲存在與電腦的主機板（motherboard）相接的一或多個晶片上，用來暫時儲存作業系統和應用程式需要的資料
 - 電腦的 RAM 不夠用時，需要將 RAM 的內容置換（swap）進出硬碟。當這種情況發生時，電腦被稱作它正在使用虛擬記憶體（virtual memory）
 - 硬碟中暫時用來儲存 RAM 放不下的資料的區域，被稱為置換檔（swap file）或分頁檔（paging file）
