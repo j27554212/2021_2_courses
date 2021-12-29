@@ -1,5 +1,5 @@
 # Linux 伺服器建置_1_1_Nginx網站伺服器報告.md
-
+- https://linuxconfig.org/how-to-install-nginx-on-linux
 - 要使用Nginx網站伺服器先停止apache 網站伺服器
   - ./etc/init.d/apache2 stop
 
