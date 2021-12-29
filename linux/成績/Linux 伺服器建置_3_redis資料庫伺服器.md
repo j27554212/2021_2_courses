@@ -7,8 +7,25 @@
 ## [redis@dockerHUB](https://hub.docker.com/_/redis)
 - [使用 Docker 安裝 Redis](https://marcus116.blogspot.com/2019/02/how-to-run-redis-in-docker.html)
 - docker pull redis
-- docker run -itd --name redis-test -p 6379:6379 redis
-- docker exec -it redis-test /bin/bash
+```
+Using default tag: latest
+latest: Pulling from library/redis
+a2abf6c4d29d: Pull complete 
+c7a4e4382001: Pull complete 
+4044b9ba67c9: Pull complete 
+c8388a79482f: Pull complete 
+413c8bb60be2: Pull complete 
+1abfd3011519: Pull complete 
+Digest: sha256:db485f2e245b5b3329fdc7eff4eb00f913e09d8feb9ca720788059fdc2ed8339
+Status: Downloaded newer image for redis:latest
+docker.io/library/redis:latest
+```
+- docker run -itd --name myredis -p 6379:6379 redis
+```
+2122bd6239f461779f13c9ee397ae12dc0338a781f5a10ba808ebf97e4b4fd61
+docker: Error response from daemon: driver failed programming external connectivity on endpoint redis-test (fdb0421328f619581e1f985197989afb3cf7b7c0749830043d5d9a0f6007955e): Bind for 0.0.0.0:6379 failed: port is already allocated.
+```
+- docker exec -it myredis /bin/bash
 
 ```
 docker exec -it e819 bash
@@ -21,6 +38,42 @@ OK
 127.0.0.1:6379> get test
 "hello world"
 ```
+
+## ACL
+```
+127.0.0.1:6379> acl --help
+(error) ERR Unknown subcommand or wrong number of arguments for '--help'. Try ACL HELP.
+127.0.0.1:6379> ACL HELP
+ 1) ACL <subcommand> [<arg> [value] [opt] ...]. Subcommands are:
+ 2) CAT [<category>]
+ 3)     List all commands that belong to <category>, or all command categories
+ 4)     when no category is specified.
+ 5) DELUSER <username> [<username> ...]
+ 6)     Delete a list of users.
+ 7) GETUSER <username>
+ 8)     Get the user's details.
+ 9) GENPASS [<bits>]
+10)     Generate a secure 256-bit user password. The optional `bits` argument can
+11)     be used to specify a different size.
+12) LIST
+13)     Show users details in config file format.
+14) LOAD
+15)     Reload users from the ACL file.
+16) LOG [<count> | RESET]
+
+
+127.0.0.1:6379> acl USERS
+1) "default"
+
+127.0.0.1:6379> acl LOG
+(empty array)
+127.0.0.1:6379> acl WHOAMI
+"default"
+127.0.0.1:6379> acl LIST
+1) "user default on nopass ~* &* +@all"
+
+```
+
 
 ## [docker安裝redis設定密碼並連線的操作](https://www.796t.com/article.php?id=173205)
 ```
