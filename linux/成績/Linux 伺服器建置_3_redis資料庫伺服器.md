@@ -71,10 +71,44 @@ OK
 "default"
 127.0.0.1:6379> acl LIST
 1) "user default on nopass ~* &* +@all"
-
 ```
 
+## 使用python redis-py模組
+- 安裝:python3 -m pip install redis
+```
+Collecting redis
+  Downloading https://files.pythonhosted.org/packages/bf/ae/426f5c20c8e6daab1676c87071ce3d804d5574e1d656b03daf87916b6b19/redis-4.1.0-py3-none-any.whl (171kB)
+    100% |████████████████████████████████| 174kB 2.7MB/s 
+Collecting importlib-metadata>=1.0; python_version < "3.8" (from redis)
+  Downloading https://files.pythonhosted.org/packages/f9/6c/a14560ec00a14f50fdb3e91665563500b55f3c672e621c3ef159d351e9f7/importlib_metadata-4.10.0-py3-none-any.whl
+Collecting deprecated>=1.2.3 (from redis)
+  Downloading https://files.pythonhosted.org/packages/51/6a/c3a0408646408f7283b7bc550c30a32cc791181ec4618592eec13e066ce3/Deprecated-1.2.13-py2.py3-none-any.whl
+Collecting packaging>=21.3 (from redis)
+  Downloading https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl (40kB)
+    100% |████████████████████████████████| 40kB 3.9MB/s 
+Collecting zipp>=0.5 (from importlib-metadata>=1.0; python_version < "3.8"->redis)
+  Downloading https://files.pythonhosted.org/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl
+Collecting typing-extensions>=3.6.4; python_version < "3.8" (from importlib-metadata>=1.0; python_version < "3.8"->redis)
+  Downloading https://files.pythonhosted.org/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl
+Collecting wrapt<2,>=1.10 (from deprecated>=1.2.3->redis)
+  Downloading https://files.pythonhosted.org/packages/8d/dc/14fe7be60cd15f86acdfc8863c0f59a72c2019d373d0b3fe217830044f9f/wrapt-1.13.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (79kB)
+    100% |████████████████████████████████| 81kB 5.6MB/s 
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/lib/python3/dist-packages (from packaging>=21.3->redis) (2.2.0)
+Installing collected packages: zipp, typing-extensions, importlib-metadata, wrapt, deprecated, packaging, redis
+Successfully installed deprecated-1.2.13 importlib-metadata-4.10.0 packaging-21.3 redis-4.1.0 typing-extensions-4.0.1 wrapt-1.13.3 zipp-3.6.0
+```
 
+```python
+ python3
+Python 3.7.3rc1 (default, Mar 13 2019, 11:01:15) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import redis
+>>> client = redis.Redis()
+>>> print(client.keys())
+[b'test']
+>>> 
+```
 ## [docker安裝redis設定密碼並連線的操作](https://www.796t.com/article.php?id=173205)
 ```
 、在docker 倉庫下載redis
