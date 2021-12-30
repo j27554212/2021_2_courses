@@ -1,6 +1,6 @@
 # Google Meet
 
-https://meet.google.com/
+https://meet.google.com/rgp-bssv-sng
 
 #
 - [崑山網路大學]( elearning2.ksu.edu.tw)
