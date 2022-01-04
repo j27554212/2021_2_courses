@@ -2,6 +2,17 @@
 
 ## 教科書解答
 
+- 第2章
+  - 是非題  FTTFF F
+  - 選擇題  BCADA BBDDB CBCAC CDDDD ACB
+
+- 第3章
+  - 是非題  FTTFT TFTFF
+  - 選擇題  BADBA CACBB ADBAB CADBC DCDCA
+
+- 第9章
+  - 選擇題  BDBDD ABADA BCABB DBCAC
+###
 - 第4章
   - 是非題  TFTTF FTFTT
   - 選擇題  BCAAB DADCB DADBA D
