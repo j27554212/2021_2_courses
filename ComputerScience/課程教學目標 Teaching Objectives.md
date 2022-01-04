@@ -5,6 +5,7 @@
 - Knowledge	
   - The main objective of this course is to provide students knowledge of fundamental concepts of computers and information technology.
   - Let students understand the most important topics of computer architecture, auxiliary modes, systems, languages, databases, and the latest technology in information disciplines.
+
 ## 技能	學習對於電腦的各運作單元與架構的組成，有更進一步的了解。
 - Skill	
   - Learn to have a better understanding of the composition of each unit and structure of the computer.
@@ -12,10 +13,35 @@
 ## 態度	學習對於電腦基本組成單元與未來從事電腦資訊相關領域人員所需之專業態度。
 - Attitude	
   - Learn the professional attitudes required for the basic components of computers and those who will be engaged in computer-related information in the future.
+
 ## 其他	藉由此課程，可以加強學生對於資工領域問題的了解，產業的發展，電腦未來的技術瓶頸與未來發展關鍵。
 - Other	
   - The course can improve students' knowledge in the field of knowledge work, industry development, future computer technology routes and key aspects of future development.
 
+## [CS101 Syllabus](https://web.stanford.edu/class/cs101/syllabus.html)
+
+
+##
+```
+Upon successful completion of this course, students should:
+• Understand basic principles of thinking and solving
+problems with computers and computation.
+• Be able to specify procedures for solving problems and the
+concepts and practice of designing and implementing
+algorithms.
+• Recognize, analyze, and correctly use the basic elements
+of computer programs, such as statements, variables,
+events, conditionals, loops, timers, and arrays.
+• Grasp and utilize the fundamental concepts of computer
+science including data types, control structures, operators,
+functions, and libraries.
+• Have a working knowledge of computer system design
+and the practice of software engineering, software tools,
+debugging, and documentation.
+• Be able to design, plan, prototype, implement, test, and
+document a reasonably complicated software (and
+hardware) project.
+```
 ##
 ```
 Course Description: This course covers the basic concepts of computers and information
@@ -29,6 +55,17 @@ computer security.
 
 
 Course Objectives: The main objective of this course is to provide students knowledge of fundamental concepts of computers and information technology.
+```
+
+```
+By taking the combined sequence of Introduction to Information Technology A and B, you will meet the
+following goals:
+• Use software programs that are common in an IT workplace
+• Explore IT career paths and assess your personal aptitudes
+• Investigate the history and role of hardware and software in IT
+• Learn and apply introductory programming skills to solve specific
+• Examine the legal, ethical, social, and technical issues surrounding networks and the
+Internet 
 ```
 ##
 ```
