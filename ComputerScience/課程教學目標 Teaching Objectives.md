@@ -3,11 +3,13 @@
 ## 目標	說明
 ## 知識		讓學生了解資訊學科中，最重要的電腦架構、運作模式、系統、語言、資料庫、最新技術等主題。
 - Knowledge	
-  - The main objective of this course is to provide students knowledge of fundamental concepts of computers and information technology.
+  - The main objective of this course is to provide students knowledge of fundamental concepts of computers and information technology.Upon successful completion of this course, students should understand computer architecture, memory , IO and Opertion system. 
+  - .
   - Let students understand the most important topics of computer architecture, auxiliary modes, systems, languages, databases, and the latest technology in information disciplines.
 
-## 技能	學習對於電腦的各運作單元與架構的組成，有更進一步的了解。
+## 技能 完成此課程後學生將具備電腦程式的撰寫與修改能力。
 - Skill	
+  - Upon successful completion of this course,  students should  analyze, and correctly use the basic elements of computer programs(P), such as statements, conditionals, loops
   - Learn to have a better understanding of the composition of each unit and structure of the computer.
 
 ## 態度	學習對於電腦基本組成單元與未來從事電腦資訊相關領域人員所需之專業態度。
