@@ -80,6 +80,7 @@ This course provides an introduction to information technology and computing sys
 ```
 ## [](https://tel-courses.org/uploads/media_images/Spring_2020_Course_Syllabus_-_Introduction_to_Information_Technology.pdf)
 
+
 ```
 Explain and summarize the history and development of information technologies,
 including computing hardware, software, and Internet-based technologies.
